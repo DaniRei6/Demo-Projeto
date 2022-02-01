@@ -107,3 +107,17 @@ list-style: none;
     float: left;
     position: relative;
 }
+
+/*---------carrousel-----------*/
+
+.carrousel{
+    width: 100%;
+    position:relative;
+}
+.d-none{
+    display: none;
+}
+.button_car{
+    position:absolute;
+
+}
