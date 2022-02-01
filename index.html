@@ -3,7 +3,9 @@
 <head>
     <!--css-->
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <!---->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +18,8 @@
        <div class="header-1">
              <div class="logo">
                     <img src="./img/logo.png" alt="">
-             </div>
-         <div class="redes-sociais">
-         <ul>
-             <li><a href=""><img src="./img/rss.png"/> </a> </li>
-             <li><a href=""><img src="./img/face.png"/> </a> </li>
-             <li><a href=""><img src="./img/tw.png"/> </a> </li>
-             <li><a href=""><img src="./img/linkedin.png"/> </a> </li>
-         </ul>     
-    </div>
+             </div> 
+        </div>
     </main>
 
     </header>
@@ -35,7 +30,7 @@
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Products</a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">Me</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact Us</a></li>
                 </ul>
@@ -45,14 +40,87 @@
             </div>
         </div>
     </main>
-    <div class="single-item">
-        <div class=""><img src="./img/Banner.jpg"></div>
-        <div class=""><img src="./img/Banner.jpg"></div>
-        <div class=""><img src="./img/Banner.jpg"></div>
-    </div>
+    <!--carrousel-->
+    <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active relative float-left w-full">
+            <img
+              src="./img/carossel_1.jpg"
+              class="block w-full"
+              alt="..."
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+              <h5 class="text-xl">First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="./img/carossel_2.jpg"
+              class="block w-full"
+              alt="..."
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+              <h5 class="text-xl">Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="."
+              class="block w-full"
+              alt="..."
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+              <h5 class="text-xl">Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <!---js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
