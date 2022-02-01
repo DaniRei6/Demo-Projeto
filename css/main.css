@@ -18,7 +18,6 @@ main {
 margin: 0 auto;
 width: 980px;
 float: left;
-position: relative;
 }
 
 .logo {
@@ -41,7 +40,7 @@ list-style: none;
 
 .header-2{
     background-color: #ffffff;
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
     padding: 16px;
     
@@ -60,11 +59,11 @@ list-style: none;
     height: 30px;
 }
 
-.menu ul li :hover{
+.menu ul li.item :hover{
     border-bottom: 3px solid #00bac6;
 }
 
-.menu ul li a:hover {
+.menu ul li.item a:hover {
     color:#00bac6 ;
     
 }
@@ -105,5 +104,4 @@ list-style: none;
 .coluna-100 {
     width: 100%;
     float: left;
-    position: relative;
 }
