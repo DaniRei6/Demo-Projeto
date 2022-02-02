@@ -89,7 +89,7 @@ list-style: none;
 }
 
 .busca input {
-    background-image: url('../img/icone-search.png');
+     background-image: url('../img/icone-search.png');
     border: 1px solid #d6d6d6;
     background-repeat: no-repeat;
     background-position: 96%;
