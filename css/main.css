@@ -104,4 +104,9 @@ list-style: none;
 .coluna-100 {
     width: 100%;
     float: left;
+<<<<<<< HEAD
 }
+=======
+    position: relative;
+}
+>>>>>>> 062ba87d72c55b9f9091b8f921701c2d45aae26d
